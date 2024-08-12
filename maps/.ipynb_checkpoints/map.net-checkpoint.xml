@@ -1,0 +1,20 @@
+<net>
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.00,1000.00" origBoundary="0.00,0.00,1000.00,1000.00"/>
+    <edge id="edge1" from="n1" to="n2" numLanes="1" speed="13.9">
+        <lane id="edge1_0" index="0" speed="13.9" length="500.00"/>
+    </edge>
+    <edge id="edge2" from="n2" to="n3" numLanes="1" speed="13.9">
+        <lane id="edge2_0" index="0" speed="13.9" length="500.00"/>
+    </edge>
+    <edge id="edge3" from="n3" to="n4" numLanes="1" speed="13.9">
+        <lane id="edge3_0" index="0" speed="13.9" length="500.00"/>
+    </edge>
+    <edge id="edge4" from="n2" to="n5" numLanes="1" speed="13.9">
+        <lane id="edge4_0" index="0" speed="13.9" length="500.00"/>
+    </edge>
+    <junction id="n1" x="0.00" y="500.00" type="dead_end"/>
+    <junction id="n2" x="500.00" y="500.00" type="traffic_light"/>
+    <junction id="n3" x="1000.00" y="500.00" type="traffic_light"/>
+    <junction id="n4" x="1500.00" y="500.00" type="dead_end"/>
+    <junction id="n5" x="500.00" y="1000.00" type="dead_end"/>
+</net>

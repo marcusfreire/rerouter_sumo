@@ -1,0 +1,4 @@
+netgenerate --grid --grid.number=10 --grid.length=200 -o grid.net.xml
+
+python $SUMO_HOME/tools/randomTrips.py -n grid.net.xml -o grid.rou.xml --seed 42 --prefix veh --end 3600 --fringe-factor 10 --trip-attributes "departLane=\"random\" departSpeed=\"max\" departPos=\"random_free\""
+python $SUMO_HOME/tools/randomTrips.py -n grid.net.xml -o grid.rou.xml --seed 42 --prefix veh --end 3600
